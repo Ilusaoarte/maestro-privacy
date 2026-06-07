@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestro — Privacy Policy / Política de Privacidade</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #e0e0e0;
+            background: #1a1a2e;
+            padding: 40px 20px;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        .lang-toggle {
+            text-align: center;
+            margin-bottom: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 6px;
+        }
+        .lang-toggle button {
+            background: #16213e;
+            color: #e0e0e0;
+            border: 1px solid #0f3460;
+            padding: 8px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+        .lang-toggle button:hover, .lang-toggle button.active {
+            background: #0f3460;
+            color: #fff;
+        }
+        h1 {
+            font-size: 28px;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #8888aa;
+            margin-bottom: 40px;
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #e94560;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid #16213e;
+            padding-bottom: 6px;
+        }
+        p, li { margin-bottom: 10px; font-size: 15px; }
+        ul { padding-left: 24px; }
+        .highlight {
+            background: #16213e;
+            border-left: 4px solid #e94560;
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+        }
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            color: #555;
+            font-size: 13px;
+        }
+        a { color: #e94560; }
+        .divider {
+            border: none;
+            border-top: 1px solid #16213e;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-toggle">
+            <button id="btn-pt" class="active" onclick="showLang('pt')">Português</button>
+            <button id="btn-en" onclick="showLang('en')">English</button>
+            <button id="btn-es" onclick="showLang('es')">Español</button>
+            <button id="btn-de" onclick="showLang('de')">Deutsch</button>
+            <button id="btn-fr" onclick="showLang('fr')">Français</button>
+            <button id="btn-it" onclick="showLang('it')">Italiano</button>
+            <button id="btn-zh" onclick="showLang('zh')">中文</button>
+            <button id="btn-ja" onclick="showLang('ja')">日本語</button>
+        </div>
+
+        <!-- ═══════════════ PORTUGUÊS ═══════════════ -->
+        <div id="lang-pt">
+            <h1>Política de Privacidade</h1>
+            <p class="subtitle">Maestro — Controlador de Áudio Profissional<br>Última atualização: 7 de junho de 2026</p>
+
+            <h2>1. Introdução</h2>
+            <p>O Maestro ("nós", "nosso" ou "app") é um aplicativo de controle de áudio profissional desenvolvido por Everton Machado. Esta política explica como tratamos seus dados.</p>
+
+            <div class="highlight">
+                <strong>Resumo:</strong> Playlists, arquivos de áudio, gravações e dados do Maestro Vision permanecem no seu dispositivo. O app pode usar Firebase para login/licença Pro, Firebase Crashlytics para relatórios técnicos de erro e RevenueCat/App Store para compras e restauração de licença.
+            </div>
+
+            <h2>2. Dados tratados pelo app</h2>
+            <p>A versão pública do Maestro pode tratar os seguintes dados, sempre limitados à finalidade do recurso usado:</p>
+            <ul>
+                <li><strong>Conta Pro:</strong> quando você faz login, o Firebase Authentication trata seu e-mail, identificador de usuário e estado de autenticação.</li>
+                <li><strong>Licença Pro:</strong> o Firebase pode armazenar o identificador da conta e o status de licença para liberar recursos pagos.</li>
+                <li><strong>Compras:</strong> RevenueCat e App Store podem tratar histórico de compra, identificador de usuário do app e status de licença para compra, restauração e suporte.</li>
+                <li><strong>Relatórios de erro:</strong> em versões de produção, o Firebase Crashlytics pode receber dados técnicos de falhas, como versão do app, sistema operacional, stack trace e informações de diagnóstico.</li>
+                <li><strong>Dados locais:</strong> playlists, configurações, arquivos de áudio, gravações e calibrações ficam armazenados no dispositivo, salvo quando você decide exportar ou compartilhar.</li>
+            </ul>
+
+            <h2>3. Dados que o app NÃO coleta</h2>
+            <ul>
+                <li>Não vendemos dados pessoais.</li>
+                <li>Não exibimos anúncios.</li>
+                <li>Não usamos dados de câmera para identificar pessoas.</li>
+                <li>Não rastreamos sua localização geográfica para publicidade ou perfilamento.</li>
+                <li>Não enviamos seus arquivos de áudio, playlists ou gravações para servidores do Maestro.</li>
+                <li>Não compartilhamos dados com terceiros para marketing.</li>
+            </ul>
+
+            <h2>4. Permissões do dispositivo</h2>
+            <ul>
+                <li><strong>Câmera:</strong> usada para detecção de gestos em tempo real (Maestro Vision). As imagens são processadas localmente no dispositivo e nunca são gravadas, armazenadas ou transmitidas.</li>
+                <li><strong>Microfone:</strong> permite gravar cues de áudio diretamente no app. O áudio gravado é salvo apenas no armazenamento local do dispositivo.</li>
+                <li><strong>Biblioteca de mídia/Fotos:</strong> necessário para navegar e importar arquivos de áudio (MP3, WAV, AAC, FLAC, etc.) armazenados no dispositivo, e para exportar backups.</li>
+                <li><strong>Biblioteca de música:</strong> permite importar faixas de áudio da biblioteca do dispositivo para uso como cues.</li>
+            </ul>
+
+            <h2>5. Armazenamento de dados</h2>
+            <p>Playlists, configurações, arquivos de áudio e dados de calibração são armazenados no dispositivo. Dados de autenticação, compra e licença podem ser mantidos pelo Firebase, RevenueCat e App Store para validar o acesso Pro.</p>
+
+            <h2>6. Segurança</h2>
+            <p>Relatórios de diagnóstico são enviados apenas para análise técnica de falhas do app. Arquivos de áudio, playlists, gravações e dados de câmera permanecem no dispositivo, salvo quando você decide exportar ou compartilhar.</p>
+
+            <h2>7. Crianças</h2>
+            <p>O Maestro não é direcionado a crianças menores de 13 anos e não coleta intencionalmente dados de crianças.</p>
+
+            <h2>8. Alterações nesta política</h2>
+            <p>Caso esta política seja atualizada, a nova versão será publicada nesta mesma página com a data de atualização revisada.</p>
+
+            <h2>9. Contato</h2>
+            <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
+
+            <hr class="divider">
+
+            <h1>Termos de Uso</h1>
+            <p class="subtitle">Maestro — Controlador de Áudio Profissional</p>
+
+            <h2>1. Aceitação dos termos</h2>
+            <p>Ao baixar ou usar o Maestro, você concorda com estes termos. Se não concordar, não use o app.</p>
+
+            <h2>2. Licença de uso</h2>
+            <p>O Maestro concede a você uma licença pessoal, não exclusiva, não transferível e revogável para uso do app. A versão gratuita tem limitações de recursos. A versão Pro é desbloqueada por compra única via App Store.</p>
+
+            <h2>3. Compra Pro</h2>
+            <p>A compra Pro é processada pela Apple App Store. É uma compra única (não recorrente) que libera recursos avançados em até 3 dispositivos associados à mesma conta. Para restaurar uma compra anterior, use a opção "Restaurar" no app. Reembolsos são gerenciados pela Apple conforme a política de reembolsos da App Store.</p>
+
+            <h2>4. Conteúdo do usuário</h2>
+            <p>Você é responsável pelos arquivos de áudio que importa e usa no app. Não use arquivos que violem direitos autorais de terceiros para distribuição pública.</p>
+
+            <h2>5. Limitação de responsabilidade</h2>
+            <p>O app é fornecido "como está". Não nos responsabilizamos por falhas de áudio durante apresentações ao vivo, perda de dados ou danos causados pelo uso do app.</p>
+
+            <h2>6. Alterações</h2>
+            <p>Estes termos podem ser atualizados. Mudanças significativas serão comunicadas por meio de atualização do app ou desta página.</p>
+
+            <h2>7. Contato</h2>
+            <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
+        </div>
+
+        <!-- ═══════════════ ENGLISH ═══════════════ -->
+        <div id="lang-en" style="display:none">
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">Maestro — Professional Audio Controller<br>Last updated: June 7, 2026</p>
+
+            <h2>1. Introduction</h2>
+            <p>Maestro ("we", "our" or "the app") is a professional audio control application developed by Everton Machado. This policy explains how we handle your data.</p>
+
+            <div class="highlight">
+                <strong>Summary:</strong> Playlists, audio files, recordings, and Maestro Vision data stay on your device. The app may use Firebase for Pro login/license, Firebase Crashlytics for technical crash reports, and RevenueCat/App Store for purchases and license restoration.
+            </div>
+
+            <h2>2. Data handled by the app</h2>
+            <ul>
+                <li><strong>Pro account:</strong> when you sign in, Firebase Authentication handles your email address, user identifier, and authentication state.</li>
+                <li><strong>Pro license:</strong> Firebase may store your account identifier and license status to unlock paid features.</li>
+                <li><strong>Purchases:</strong> RevenueCat and the App Store may handle purchase history, app user identifier, and license status for purchases, restoration, and support.</li>
+                <li><strong>Crash reports:</strong> in production builds, Firebase Crashlytics may receive technical crash data such as app version, OS, stack traces, and diagnostics.</li>
+                <li><strong>Local data:</strong> playlists, settings, audio files, recordings, and calibrations are stored on your device unless you choose to export or share them.</li>
+            </ul>
+
+            <h2>3. Data the app does NOT collect</h2>
+            <ul>
+                <li>We do not sell personal data.</li>
+                <li>We do not display advertisements.</li>
+                <li>We do not use camera data to identify people.</li>
+                <li>We do not track your geographic location for advertising or profiling.</li>
+                <li>We do not send your audio files, playlists, or recordings to Maestro servers.</li>
+                <li>We do not share data with third parties for marketing.</li>
+            </ul>
+
+            <h2>4. Device Permissions</h2>
+            <ul>
+                <li><strong>Camera:</strong> used for real-time gesture detection (Maestro Vision). Camera images are processed locally on the device and are never recorded, stored, or transmitted.</li>
+                <li><strong>Microphone:</strong> allows recording audio cues directly in the app. Recorded audio is saved only to local storage on the device.</li>
+                <li><strong>Media Library/Photos:</strong> required to browse and import audio files (MP3, WAV, AAC, FLAC, etc.) stored on the device, and to export backups.</li>
+                <li><strong>Music Library:</strong> allows importing audio tracks from the device library for use as cues.</li>
+            </ul>
+
+            <h2>5. Data Storage</h2>
+            <p>Playlists, settings, audio files, and calibration data are stored on your device. Authentication, purchase, and license data may be kept by Firebase, RevenueCat, and the App Store to validate Pro access.</p>
+
+            <h2>6. Security</h2>
+            <p>Diagnostic reports are sent only for technical analysis of app failures. Audio files, playlists, recordings, and camera data remain on the device unless you choose to export or share them.</p>
+
+            <h2>7. Children</h2>
+            <p>Maestro is not directed at children under 13 years of age and does not intentionally collect data from children.</p>
+
+            <h2>8. Changes to this Policy</h2>
+            <p>If this policy is updated, the new version will be published on this same page with the revised update date.</p>
+
+            <h2>9. Contact</h2>
+            <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
+
+            <hr class="divider">
+
+            <h1>Terms of Use</h1>
+            <p class="subtitle">Maestro — Professional Audio Controller</p>
+
+            <h2>1. Acceptance</h2>
+            <p>By downloading or using Maestro, you agree to these terms. If you do not agree, do not use the app.</p>
+
+            <h2>2. License</h2>
+            <p>Maestro grants you a personal, non-exclusive, non-transferable, revocable license to use the app. The free version has feature limitations. The Pro version is unlocked via a one-time purchase through the App Store.</p>
+
+            <h2>3. Pro Purchase</h2>
+            <p>The Pro purchase is processed by the Apple App Store. It is a one-time (non-recurring) purchase that unlocks advanced features on up to 3 devices linked to the same account. To restore a previous purchase, use the "Restore" option in the app. Refunds are managed by Apple in accordance with App Store refund policies.</p>
+
+            <h2>4. User Content</h2>
+            <p>You are responsible for the audio files you import and use in the app. Do not use files that infringe third-party copyrights for public distribution.</p>
+
+            <h2>5. Limitation of Liability</h2>
+            <p>The app is provided "as is". We are not responsible for audio failures during live performances, data loss, or damages caused by use of the app.</p>
+
+            <h2>6. Changes</h2>
+            <p>These terms may be updated. Significant changes will be communicated through an app update or this page.</p>
+
+            <h2>7. Contact</h2>
+            <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
+        </div>
+
+        <!-- ═══════════════ ESPAÑOL ═══════════════ -->
+        <div id="lang-es" style="display:none">
+            <h1>Política de Privacidad</h1>
+            <p class="subtitle">Maestro — Controlador de Audio Profesional<br>Última actualización: 7 de junio de 2026</p>
+
+            <h2>1. Introducción</h2>
+            <p>Maestro es una aplicación de control de audio profesional desarrollada por Everton Machado. Esta política explica cómo tratamos tus datos.</p>
+
+            <div class="highlight">
+                <strong>Resumen:</strong> Las playlists, archivos de audio, grabaciones y datos de Maestro Vision permanecen en tu dispositivo. La app puede usar Firebase para login/licencia Pro, Firebase Crashlytics para reportes técnicos de errores y RevenueCat/App Store para compras y restauración de licencia.
+            </div>
+
+            <h2>2. Datos tratados por la app</h2>
+            <ul>
+                <li><strong>Cuenta Pro:</strong> Firebase Authentication trata tu email, identificador de usuario y estado de autenticación.</li>
+                <li><strong>Licencia Pro:</strong> Firebase puede almacenar el identificador de la cuenta y el estado de licencia.</li>
+                <li><strong>Compras:</strong> RevenueCat y App Store pueden tratar historial de compra e identificador de usuario.</li>
+                <li><strong>Reportes de error:</strong> Firebase Crashlytics puede recibir datos técnicos de fallos en versiones de producción.</li>
+                <li><strong>Datos locales:</strong> playlists, configuraciones, archivos de audio y grabaciones se almacenan en tu dispositivo.</li>
+            </ul>
+
+            <h2>3. Datos que la app NO recopila</h2>
+            <ul>
+                <li>No vendemos datos personales.</li>
+                <li>No mostramos anuncios.</li>
+                <li>No usamos datos de cámara para identificar personas.</li>
+                <li>No rastreamos tu ubicación geográfica.</li>
+                <li>No enviamos tus archivos de audio o grabaciones a servidores externos.</li>
+                <li>No compartimos datos con terceros para marketing.</li>
+            </ul>
+
+            <h2>4. Permisos del dispositivo</h2>
+            <ul>
+                <li><strong>Cámara:</strong> usada para detección de gestos en tiempo real (Maestro Vision). Las imágenes se procesan localmente y nunca se graban ni transmiten.</li>
+                <li><strong>Micrófono:</strong> permite grabar cues de audio. El audio grabado se guarda solo en el dispositivo.</li>
+                <li><strong>Biblioteca de medios/Fotos:</strong> necesario para importar archivos de audio (MP3, WAV, AAC, FLAC, etc.) y exportar copias de seguridad.</li>
+                <li><strong>Biblioteca de música:</strong> permite importar pistas de audio del dispositivo.</li>
+            </ul>
+
+            <h2>5. Contacto</h2>
+            <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
+
+            <hr class="divider">
+
+            <h1>Términos de Uso</h1>
+
+            <h2>1. Aceptación</h2>
+            <p>Al usar Maestro, aceptas estos términos.</p>
+
+            <h2>2. Compra Pro</h2>
+            <p>La compra Pro es procesada por la Apple App Store. Es una compra única que desbloquea funciones avanzadas en hasta 3 dispositivos. Los reembolsos son gestionados por Apple.</p>
+
+            <h2>3. Contacto</h2>
+            <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
+        </div>
+
+        <!-- ═══════════════ DEUTSCH ═══════════════ -->
+        <div id="lang-de" style="display:none">
+            <h1>Datenschutzrichtlinie</h1>
+            <p class="subtitle">Maestro — Professionelle Audiosteuerung<br>Letzte Aktualisierung: 7. Juni 2026</p>
+
+            <h2>1. Einleitung</h2>
+            <p>Maestro ist eine professionelle Audiosteuerungs-App, entwickelt von Everton Machado. Diese Richtlinie erklärt, wie wir mit Ihren Daten umgehen.</p>
+
+            <div class="highlight">
+                <strong>Zusammenfassung:</strong> Playlists, Audiodateien, Aufnahmen und Maestro Vision-Daten verbleiben auf Ihrem Gerät. Die App kann Firebase für Pro-Login/Lizenz, Firebase Crashlytics für technische Fehlerberichte und RevenueCat/App Store für Käufe verwenden.
+            </div>
+
+            <h2>2. Verarbeitete Daten</h2>
+            <ul>
+                <li><strong>Pro-Konto:</strong> Firebase Authentication verarbeitet Ihre E-Mail-Adresse, Benutzerkennung und Authentifizierungsstatus.</li>
+                <li><strong>Pro-Lizenz:</strong> Firebase speichert möglicherweise Ihre Kontokennung und den Lizenzstatus.</li>
+                <li><strong>Käufe:</strong> RevenueCat und App Store verarbeiten Kaufhistorie und Benutzerkennung.</li>
+                <li><strong>Fehlerberichte:</strong> Firebase Crashlytics empfängt technische Absturzdaten in Produktionsversionen.</li>
+                <li><strong>Lokale Daten:</strong> Playlists, Einstellungen, Audiodateien und Aufnahmen werden auf Ihrem Gerät gespeichert.</li>
+            </ul>
+
+            <h2>3. Nicht erhobene Daten</h2>
+            <ul>
+                <li>Wir verkaufen keine persönlichen Daten.</li>
+                <li>Wir zeigen keine Werbung an.</li>
+                <li>Wir verwenden keine Kameradaten zur Personenidentifikation.</li>
+                <li>Wir senden Ihre Audiodateien nicht an externe Server.</li>
+            </ul>
+
+            <h2>4. Geräteberechtigungen</h2>
+            <ul>
+                <li><strong>Kamera:</strong> Für Echtzeit-Gestenerkennung (Maestro Vision). Bilder werden lokal verarbeitet und niemals gespeichert oder übertragen.</li>
+                <li><strong>Mikrofon:</strong> Zum Aufzeichnen von Audio-Cues lokal auf dem Gerät.</li>
+                <li><strong>Mediathek/Fotos:</strong> Zum Importieren von Audiodateien (MP3, WAV, AAC, FLAC usw.) und Exportieren von Backups.</li>
+                <li><strong>Musikbibliothek:</strong> Zum Importieren von Audiospuren vom Gerät.</li>
+            </ul>
+
+            <h2>5. Kontakt</h2>
+            <p><strong>E-Mail:</strong> maestroaplicativo@gmail.com</p>
+
+            <hr class="divider">
+
+            <h1>Nutzungsbedingungen</h1>
+
+            <h2>1. Akzeptanz</h2>
+            <p>Durch die Nutzung von Maestro stimmen Sie diesen Bedingungen zu.</p>
+
+            <h2>2. Pro-Kauf</h2>
+            <p>Der Pro-Kauf wird über den Apple App Store abgewickelt. Es handelt sich um einen einmaligen Kauf, der erweiterte Funktionen auf bis zu 3 Geräten freischaltet. Rückerstattungen werden von Apple verwaltet.</p>
+
+            <h2>3. Kontakt</h2>
+            <p><strong>E-Mail:</strong> maestroaplicativo@gmail.com</p>
+        </div>
+
+        <!-- ═══════════════ FRANÇAIS ═══════════════ -->
+        <div id="lang-fr" style="display:none">
+            <h1>Politique de Confidentialité</h1>
+            <p class="subtitle">Maestro — Contrôleur Audio Professionnel<br>Dernière mise à jour : 7 juin 2026</p>
+
+            <h2>1. Introduction</h2>
+            <p>Maestro est une application de contrôle audio professionnel développée par Everton Machado. Cette politique explique comment nous traitons vos données.</p>
+
+            <div class="highlight">
+                <strong>Résumé :</strong> Les playlists, fichiers audio, enregistrements et données Maestro Vision restent sur votre appareil. L'app peut utiliser Firebase pour le login/licence Pro, Firebase Crashlytics pour les rapports d'erreurs, et RevenueCat/App Store pour les achats.
+            </div>
+
+            <h2>2. Données traitées</h2>
+            <ul>
+                <li><strong>Compte Pro :</strong> Firebase Authentication traite votre adresse e-mail, identifiant utilisateur et état d'authentification.</li>
+                <li><strong>Licence Pro :</strong> Firebase peut stocker votre identifiant de compte et le statut de licence.</li>
+                <li><strong>Achats :</strong> RevenueCat et l'App Store peuvent traiter l'historique d'achat et l'identifiant utilisateur.</li>
+                <li><strong>Rapports d'erreurs :</strong> Firebase Crashlytics reçoit des données techniques de crash en versions de production.</li>
+                <li><strong>Données locales :</strong> playlists, paramètres, fichiers audio et enregistrements sont stockés sur votre appareil.</li>
+            </ul>
+
+            <h2>3. Données NON collectées</h2>
+            <ul>
+                <li>Nous ne vendons pas de données personnelles.</li>
+                <li>Nous n'affichons pas de publicités.</li>
+                <li>Nous n'utilisons pas les données de caméra pour identifier des personnes.</li>
+                <li>Nous n'envoyons pas vos fichiers audio à des serveurs externes.</li>
+            </ul>
+
+            <h2>4. Autorisations de l'appareil</h2>
+            <ul>
+                <li><strong>Caméra :</strong> utilisée pour la détection de gestes en temps réel (Maestro Vision). Les images sont traitées localement et ne sont jamais enregistrées ni transmises.</li>
+                <li><strong>Microphone :</strong> permet d'enregistrer des cues audio localement sur l'appareil.</li>
+                <li><strong>Médiathèque/Photos :</strong> nécessaire pour importer des fichiers audio (MP3, WAV, AAC, FLAC, etc.) et exporter des sauvegardes.</li>
+                <li><strong>Bibliothèque musicale :</strong> permet d'importer des pistes audio depuis la bibliothèque de l'appareil.</li>
+            </ul>
+
+            <h2>5. Contact</h2>
+            <p><strong>Email :</strong> maestroaplicativo@gmail.com</p>
+
+            <hr class="divider">
+
+            <h1>Conditions d'Utilisation</h1>
+
+            <h2>1. Acceptation</h2>
+            <p>En utilisant Maestro, vous acceptez ces conditions.</p>
+
+            <h2>2. Achat Pro</h2>
+            <p>L'achat Pro est traité par l'Apple App Store. Il s'agit d'un achat unique qui débloque les fonctionnalités avancées sur jusqu'à 3 appareils. Les remboursements sont gérés par Apple.</p>
+
+            <h2>3. Contact</h2>
+            <p><strong>Email :</strong> maestroaplicativo@gmail.com</p>
+        </div>
+
+        <!-- ═══════════════ ITALIANO ═══════════════ -->
+        <div id="lang-it" style="display:none">
+            <h1>Informativa sulla Privacy</h1>
+            <p class="subtitle">Maestro — Controllo Audio Professionale<br>Ultimo aggiornamento: 7 giugno 2026</p>
+
+            <h2>1. Introduzione</h2>
+            <p>Maestro è un'applicazione di controllo audio professionale sviluppata da Everton Machado. Questa informativa spiega come trattiamo i tuoi dati.</p>
+
+            <div class="highlight">
+                <strong>Riepilogo:</strong> Playlist, file audio, registrazioni e dati di Maestro Vision rimangono sul tuo dispositivo. L'app può usare Firebase per login/licenza Pro, Firebase Crashlytics per report tecnici di errori e RevenueCat/App Store per acquisti.
+            </div>
+
+            <h2>2. Dati trattati</h2>
+            <ul>
+                <li><strong>Account Pro:</strong> Firebase Authentication tratta il tuo indirizzo email, identificatore utente e stato di autenticazione.</li>
+                <li><strong>Licenza Pro:</strong> Firebase può archiviare l'identificatore dell'account e lo stato della licenza.</li>
+                <li><strong>Acquisti:</strong> RevenueCat e App Store possono trattare la cronologia degli acquisti e l'identificatore utente.</li>
+                <li><strong>Segnalazioni di errori:</strong> Firebase Crashlytics riceve dati tecnici di crash nelle versioni di produzione.</li>
+                <li><strong>Dati locali:</strong> playlist, impostazioni, file audio e registrazioni sono archiviati sul tuo dispositivo.</li>
+            </ul>
+
+            <h2>3. Dati NON raccolti</h2>
+            <ul>
+                <li>Non vendiamo dati personali.</li>
+                <li>Non mostriamo pubblicità.</li>
+                <li>Non usiamo i dati della fotocamera per identificare persone.</li>
+                <li>Non inviamo i tuoi file audio a server esterni.</li>
+            </ul>
+
+            <h2>4. Autorizzazioni del dispositivo</h2>
+            <ul>
+                <li><strong>Fotocamera:</strong> usata per il rilevamento gesti in tempo reale (Maestro Vision). Le immagini vengono elaborate localmente e non vengono mai registrate o trasmesse.</li>
+                <li><strong>Microfono:</strong> permette di registrare cue audio localmente sul dispositivo.</li>
+                <li><strong>Libreria multimediale/Foto:</strong> necessario per importare file audio (MP3, WAV, AAC, FLAC, ecc.) ed esportare backup.</li>
+                <li><strong>Libreria musicale:</strong> permette di importare tracce audio dalla libreria del dispositivo.</li>
+            </ul>
+
+            <h2>5. Contatto</h2>
+            <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
+
+            <hr class="divider">
+
+            <h1>Termini di Utilizzo</h1>
+
+            <h2>1. Accettazione</h2>
+            <p>Utilizzando Maestro, accetti questi termini.</p>
+
+            <h2>2. Acquisto Pro</h2>
+            <p>L'acquisto Pro viene elaborato dall'Apple App Store. È un acquisto unico che sblocca le funzionalità avanzate su fino a 3 dispositivi. I rimborsi sono gestiti da Apple.</p>
+
+            <h2>3. Contatto</h2>
+            <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
+        </div>
+
+        <!-- ═══════════════ 中文 ═══════════════ -->
+        <div id="lang-zh" style="display:none">
+            <h1>隐私政策</h1>
+            <p class="subtitle">Maestro — 专业音频控制器<br>最后更新：2026年6月7日</p>
+
+            <h2>1. 简介</h2>
+            <p>Maestro 是由 Everton Machado 开发的专业音频控制应用程序。本政策说明我们如何处理您的数据。</p>
+
+            <div class="highlight">
+                <strong>摘要：</strong>播放列表、音频文件、录音和 Maestro Vision 数据均保存在您的设备上。应用可能使用 Firebase 进行 Pro 登录/许可证，Firebase Crashlytics 用于技术崩溃报告，RevenueCat/App Store 用于购买。
+            </div>
+
+            <h2>2. 处理的数据</h2>
+            <ul>
+                <li><strong>Pro 账户：</strong>Firebase Authentication 处理您的电子邮件地址、用户标识符和身份验证状态。</li>
+                <li><strong>Pro 许可证：</strong>Firebase 可能存储您的账户标识符和许可证状态。</li>
+                <li><strong>购买：</strong>RevenueCat 和 App Store 可能处理购买历史记录和用户标识符。</li>
+                <li><strong>崩溃报告：</strong>Firebase Crashlytics 在生产版本中接收技术崩溃数据。</li>
+                <li><strong>本地数据：</strong>播放列表、设置、音频文件和录音存储在您的设备上。</li>
+            </ul>
+
+            <h2>3. 不收集的数据</h2>
+            <ul>
+                <li>我们不出售个人数据。</li>
+                <li>我们不展示广告。</li>
+                <li>我们不使用摄像头数据识别人员。</li>
+                <li>我们不将您的音频文件发送到外部服务器。</li>
+            </ul>
+
+            <h2>4. 设备权限</h2>
+            <ul>
+                <li><strong>相机：</strong>用于实时手势检测（Maestro Vision）。图像在设备本地处理，从不记录或传输。</li>
+                <li><strong>麦克风：</strong>允许在应用中本地录制音频提示。</li>
+                <li><strong>媒体库/照片：</strong>用于导入音频文件（MP3、WAV、AAC、FLAC 等）和导出备份。</li>
+                <li><strong>音乐库：</strong>允许从设备库导入音轨。</li>
+            </ul>
+
+            <h2>5. 联系方式</h2>
+            <p><strong>电子邮件：</strong>maestroaplicativo@gmail.com</p>
+
+            <hr class="divider">
+
+            <h1>使用条款</h1>
+
+            <h2>1. 接受</h2>
+            <p>使用 Maestro 即表示您同意这些条款。</p>
+
+            <h2>2. Pro 购买</h2>
+            <p>Pro 购买通过 Apple App Store 处理。这是一次性购买，可在最多 3 台设备上解锁高级功能。退款由 Apple 管理。</p>
+
+            <h2>3. 联系方式</h2>
+            <p><strong>电子邮件：</strong>maestroaplicativo@gmail.com</p>
+        </div>
+
+        <!-- ═══════════════ 日本語 ═══════════════ -->
+        <div id="lang-ja" style="display:none">
+            <h1>プライバシーポリシー</h1>
+            <p class="subtitle">Maestro — プロフェッショナル音声コントローラー<br>最終更新日：2026年6月7日</p>
+
+            <h2>1. はじめに</h2>
+            <p>Maestroは、Everton Machadoが開発したプロフェッショナル音声制御アプリケーションです。このポリシーでは、お客様のデータの取り扱いについて説明します。</p>
+
+            <div class="highlight">
+                <strong>概要：</strong>プレイリスト、音声ファイル、録音、Maestro Visionデータはすべてデバイスに保存されます。アプリはProログイン/ライセンスにFirebase、技術的なクラッシュレポートにFirebase Crashlytics、購入にRevenueCat/App Storeを使用する場合があります。
+            </div>
+
+            <h2>2. 処理されるデータ</h2>
+            <ul>
+                <li><strong>Proアカウント：</strong>Firebase Authenticationがメールアドレス、ユーザー識別子、認証状態を処理します。</li>
+                <li><strong>Proライセンス：</strong>Firebaseがアカウント識別子とライセンス状態を保存する場合があります。</li>
+                <li><strong>購入：</strong>RevenueCatとApp Storeが購入履歴とユーザー識別子を処理する場合があります。</li>
+                <li><strong>クラッシュレポート：</strong>Firebase Crashlyticsが本番ビルドで技術的なクラッシュデータを受信します。</li>
+                <li><strong>ローカルデータ：</strong>プレイリスト、設定、音声ファイル、録音はデバイスに保存されます。</li>
+            </ul>
+
+            <h2>3. 収集しないデータ</h2>
+            <ul>
+                <li>個人データを販売しません。</li>
+                <li>広告を表示しません。</li>
+                <li>カメラデータを人物識別に使用しません。</li>
+                <li>音声ファイルを外部サーバーに送信しません。</li>
+            </ul>
+
+            <h2>4. デバイスの権限</h2>
+            <ul>
+                <li><strong>カメラ：</strong>リアルタイムジェスチャー検出（Maestro Vision）に使用します。画像はデバイス上でローカルに処理され、記録・送信されることはありません。</li>
+                <li><strong>マイク：</strong>アプリでオーディオキューをローカル録音するために使用します。</li>
+                <li><strong>メディアライブラリ/写真：</strong>音声ファイル（MP3、WAV、AAC、FLACなど）のインポートとバックアップのエクスポートに必要です。</li>
+                <li><strong>音楽ライブラリ：</strong>デバイスライブラリからオーディオトラックをインポートするために使用します。</li>
+            </ul>
+
+            <h2>5. お問い合わせ</h2>
+            <p><strong>メール：</strong>maestroaplicativo@gmail.com</p>
+
+            <hr class="divider">
+
+            <h1>利用規約</h1>
+
+            <h2>1. 同意</h2>
+            <p>Maestroを使用することで、これらの規約に同意したものとみなされます。</p>
+
+            <h2>2. Pro購入</h2>
+            <p>Pro購入はApple App Storeで処理されます。最大3台のデバイスで高度な機能を解除する買い切り購入です。返金はAppleが管理します。</p>
+
+            <h2>3. お問い合わせ</h2>
+            <p><strong>メール：</strong>maestroaplicativo@gmail.com</p>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 Everton Machado — Maestro Audio</p>
+        </div>
+    </div>
+
+    <script>
+        const langs = ['pt','en','es','de','fr','it','zh','ja'];
+        function showLang(lang) {
+            langs.forEach(l => {
+                document.getElementById('lang-' + l).style.display = l === lang ? 'block' : 'none';
+                const btn = document.getElementById('btn-' + l);
+                if (btn) btn.className = l === lang ? 'active' : '';
+            });
+        }
+    </script>
+</body>
+</html>
