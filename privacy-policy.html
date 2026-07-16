@@ -95,20 +95,21 @@
         <!-- ═══════════════ PORTUGUÊS ═══════════════ -->
         <div id="lang-pt">
             <h1>Política de Privacidade</h1>
-            <p class="subtitle">Maestro — Controlador de Áudio Profissional<br>Última atualização: 7 de junho de 2026</p>
+            <p class="subtitle">Maestro — Controlador de Áudio Profissional<br>Última atualização: 16 de julho de 2026</p>
 
             <h2>1. Introdução</h2>
             <p>O Maestro ("nós", "nosso" ou "app") é um aplicativo de controle de áudio profissional desenvolvido por Everton Machado. Esta política explica como tratamos seus dados.</p>
 
             <div class="highlight">
-                <strong>Resumo:</strong> Playlists, arquivos de áudio, gravações e dados do Maestro Vision permanecem no seu dispositivo. O app pode usar Firebase para login/licença Pro, Firebase Crashlytics para relatórios técnicos de erro e RevenueCat/App Store para compras e restauração de licença.
+                <strong>Resumo:</strong> Playlists, arquivos de áudio e gravações permanecem no seu dispositivo. O app pode usar Firebase para login/licença Pro, Firebase Crashlytics para relatórios técnicos de erro e RevenueCat/App Store para compras e restauração de licença.
             </div>
 
             <h2>2. Dados tratados pelo app</h2>
             <p>A versão pública do Maestro pode tratar os seguintes dados, sempre limitados à finalidade do recurso usado:</p>
             <ul>
-                <li><strong>Conta Pro:</strong> quando você faz login, o Firebase Authentication trata seu e-mail, identificador de usuário e estado de autenticação.</li>
+                <li><strong>Conta Pro:</strong> quando você faz login, o Firebase Authentication trata seu nome de perfil, e-mail, identificador de usuário e estado de autenticação.</li>
                 <li><strong>Licença Pro:</strong> o Firebase pode armazenar o identificador da conta e o status de licença para liberar recursos pagos.</li>
+                <li><strong>Registro do dispositivo:</strong> o app gera um identificador da instalação e envia esse identificador, o nome do dispositivo, a plataforma e a versão do app ao Firebase para aplicar o limite de dispositivos da licença.</li>
                 <li><strong>Compras:</strong> RevenueCat e App Store podem tratar histórico de compra, identificador de usuário do app e status de licença para compra, restauração e suporte.</li>
                 <li><strong>Relatórios de erro:</strong> em versões de produção, o Firebase Crashlytics pode receber dados técnicos de falhas, como versão do app, sistema operacional, stack trace e informações de diagnóstico.</li>
                 <li><strong>Dados locais:</strong> playlists, configurações, arquivos de áudio, gravações e calibrações ficam armazenados no dispositivo, salvo quando você decide exportar ou compartilhar.</li>
@@ -118,7 +119,7 @@
             <ul>
                 <li>Não vendemos dados pessoais.</li>
                 <li>Não exibimos anúncios.</li>
-                <li>Não usamos dados de câmera para identificar pessoas.</li>
+                <li>Não usamos a câmera do dispositivo nesta versão do app.</li>
                 <li>Não rastreamos sua localização geográfica para publicidade ou perfilamento.</li>
                 <li>Não enviamos seus arquivos de áudio, playlists ou gravações para servidores do Maestro.</li>
                 <li>Não compartilhamos dados com terceiros para marketing.</li>
@@ -126,25 +127,32 @@
 
             <h2>4. Permissões do dispositivo</h2>
             <ul>
-                <li><strong>Câmera:</strong> usada para detecção de gestos em tempo real (Maestro Vision). As imagens são processadas localmente no dispositivo e nunca são gravadas, armazenadas ou transmitidas.</li>
                 <li><strong>Microfone:</strong> permite gravar cues de áudio diretamente no app. O áudio gravado é salvo apenas no armazenamento local do dispositivo.</li>
-                <li><strong>Biblioteca de mídia/Fotos:</strong> necessário para navegar e importar arquivos de áudio (MP3, WAV, AAC, FLAC, etc.) armazenados no dispositivo, e para exportar backups.</li>
-                <li><strong>Biblioteca de música:</strong> permite importar faixas de áudio da biblioteca do dispositivo para uso como cues.</li>
+                <li><strong>Arquivos de áudio:</strong> importa arquivos escolhidos por você pelo app Arquivos, como iCloud Drive, Downloads ou Google Drive. Nenhum arquivo é enviado ou compartilhado.</li>
             </ul>
 
             <h2>5. Armazenamento de dados</h2>
             <p>Playlists, configurações, arquivos de áudio e dados de calibração são armazenados no dispositivo. Dados de autenticação, compra e licença podem ser mantidos pelo Firebase, RevenueCat e App Store para validar o acesso Pro.</p>
 
             <h2>6. Segurança</h2>
-            <p>Relatórios de diagnóstico são enviados apenas para análise técnica de falhas do app. Arquivos de áudio, playlists, gravações e dados de câmera permanecem no dispositivo, salvo quando você decide exportar ou compartilhar.</p>
+            <p>Relatórios de diagnóstico são enviados apenas para análise técnica de falhas do app. Arquivos de áudio, playlists e gravações permanecem no dispositivo, salvo quando você decide exportar ou compartilhar.</p>
 
-            <h2>7. Crianças</h2>
+            <h2>7. Exclusão de Conta e Dados</h2>
+            <p>Você pode solicitar a exclusão da sua conta do Maestro e de todos os dados pessoais associados (incluindo seu e-mail e registro de licença) a qualquer momento:</p>
+            <ul>
+                <li><strong>No aplicativo:</strong> Acesse as configurações de Pro Upgrade e clique no botão "Excluir conta".</li>
+                <li><strong>Web/E-mail:</strong> Envie uma solicitação para o nosso e-mail de suporte (maestroaplicativo@gmail.com) com o assunto "Exclusão de conta" ou solicite através de nossa <a href="delete-account.html">Página de Solicitação de Exclusão de Conta</a>. Sua solicitação será processada em até 7 dias úteis.</li>
+            </ul>
+            <p>A exclusão apaga permanentemente sua conta, dispositivos registrados e o perfil de licença mantido no RevenueCat. Ela <strong>não cancela, revoga nem reembolsa</strong> a compra vitalícia feita na Apple App Store ou no Google Play — o registro dessa compra continua sujeito à política da própria loja. Dados salvos localmente no seu dispositivo (shows, áudio, configurações) não são apagados remotamente. Caso você restaure essa compra voluntariamente no futuro, um novo perfil de licença pode ser recriado a partir do direito ainda válido na loja.</p>
+
+            <h2>8. Crianças</h2>
             <p>O Maestro não é direcionado a crianças menores de 13 anos e não coleta intencionalmente dados de crianças.</p>
 
-            <h2>8. Alterações nesta política</h2>
+            <h2>9. Alterações nesta política</h2>
             <p>Caso esta política seja atualizada, a nova versão será publicada nesta mesma página com a data de atualização revisada.</p>
 
-            <h2>9. Contato</h2>
+            <h2>10. Contato</h2>
+            <p>Para suporte, dúvidas sobre o app, compras, restauração da licença Pro ou exclusão de conta, envie uma mensagem para o e-mail abaixo.</p>
             <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
 
             <hr class="divider">
@@ -159,7 +167,7 @@
             <p>O Maestro concede a você uma licença pessoal, não exclusiva, não transferível e revogável para uso do app. A versão gratuita tem limitações de recursos. A versão Pro é desbloqueada por compra única via App Store.</p>
 
             <h2>3. Compra Pro</h2>
-            <p>A compra Pro é processada pela Apple App Store. É uma compra única (não recorrente) que libera recursos avançados em até 3 dispositivos associados à mesma conta. Para restaurar uma compra anterior, use a opção "Restaurar" no app. Reembolsos são gerenciados pela Apple conforme a política de reembolsos da App Store.</p>
+            <p>A compra Pro é processada pela Apple App Store (no iOS/macOS) ou pelo Google Play (no Android). É uma compra única (não recorrente) que libera recursos avançados em até 6 dispositivos Apple ou até 4 dispositivos Android, conforme a loja da compra, com 1 Windows permitido como dispositivo extra. Para restaurar uma compra anterior, use a opção "Restaurar" no app. Reembolsos são gerenciados pela Apple ou pelo Google conforme a política de reembolsos da respectiva loja.</p>
 
             <h2>4. Conteúdo do usuário</h2>
             <p>Você é responsável pelos arquivos de áudio que importa e usa no app. Não use arquivos que violem direitos autorais de terceiros para distribuição pública.</p>
@@ -177,19 +185,20 @@
         <!-- ═══════════════ ENGLISH ═══════════════ -->
         <div id="lang-en" style="display:none">
             <h1>Privacy Policy</h1>
-            <p class="subtitle">Maestro — Professional Audio Controller<br>Last updated: June 7, 2026</p>
+            <p class="subtitle">Maestro — Professional Audio Controller<br>Last updated: July 16, 2026</p>
 
             <h2>1. Introduction</h2>
             <p>Maestro ("we", "our" or "the app") is a professional audio control application developed by Everton Machado. This policy explains how we handle your data.</p>
 
             <div class="highlight">
-                <strong>Summary:</strong> Playlists, audio files, recordings, and Maestro Vision data stay on your device. The app may use Firebase for Pro login/license, Firebase Crashlytics for technical crash reports, and RevenueCat/App Store for purchases and license restoration.
+                <strong>Summary:</strong> Playlists, audio files, and recordings stay on your device. The app may use Firebase for Pro login/license, Firebase Crashlytics for technical crash reports, and RevenueCat/App Store for purchases and license restoration.
             </div>
 
             <h2>2. Data handled by the app</h2>
             <ul>
-                <li><strong>Pro account:</strong> when you sign in, Firebase Authentication handles your email address, user identifier, and authentication state.</li>
+                <li><strong>Pro account:</strong> when you sign in, Firebase Authentication handles your profile name, email address, user identifier, and authentication state.</li>
                 <li><strong>Pro license:</strong> Firebase may store your account identifier and license status to unlock paid features.</li>
+                <li><strong>Device registration:</strong> the app generates an installation identifier and sends it together with the device name, platform, and app version to Firebase to enforce the license device limit.</li>
                 <li><strong>Purchases:</strong> RevenueCat and the App Store may handle purchase history, app user identifier, and license status for purchases, restoration, and support.</li>
                 <li><strong>Crash reports:</strong> in production builds, Firebase Crashlytics may receive technical crash data such as app version, OS, stack traces, and diagnostics.</li>
                 <li><strong>Local data:</strong> playlists, settings, audio files, recordings, and calibrations are stored on your device unless you choose to export or share them.</li>
@@ -199,7 +208,7 @@
             <ul>
                 <li>We do not sell personal data.</li>
                 <li>We do not display advertisements.</li>
-                <li>We do not use camera data to identify people.</li>
+                <li>We do not use the device camera in this version of the app.</li>
                 <li>We do not track your geographic location for advertising or profiling.</li>
                 <li>We do not send your audio files, playlists, or recordings to Maestro servers.</li>
                 <li>We do not share data with third parties for marketing.</li>
@@ -207,25 +216,32 @@
 
             <h2>4. Device Permissions</h2>
             <ul>
-                <li><strong>Camera:</strong> used for real-time gesture detection (Maestro Vision). Camera images are processed locally on the device and are never recorded, stored, or transmitted.</li>
                 <li><strong>Microphone:</strong> allows recording audio cues directly in the app. Recorded audio is saved only to local storage on the device.</li>
-                <li><strong>Media Library/Photos:</strong> required to browse and import audio files (MP3, WAV, AAC, FLAC, etc.) stored on the device, and to export backups.</li>
-                <li><strong>Music Library:</strong> allows importing audio tracks from the device library for use as cues.</li>
+                <li><strong>Audio files:</strong> imports files you choose through the Files app, such as iCloud Drive, Downloads, or Google Drive. No files are uploaded or shared.</li>
             </ul>
 
             <h2>5. Data Storage</h2>
             <p>Playlists, settings, audio files, and calibration data are stored on your device. Authentication, purchase, and license data may be kept by Firebase, RevenueCat, and the App Store to validate Pro access.</p>
 
             <h2>6. Security</h2>
-            <p>Diagnostic reports are sent only for technical analysis of app failures. Audio files, playlists, recordings, and camera data remain on the device unless you choose to export or share them.</p>
+            <p>Diagnostic reports are sent only for technical analysis of app failures. Audio files, playlists, and recordings remain on the device unless you choose to export or share them.</p>
 
-            <h2>7. Children</h2>
+            <h2>7. Account and Data Deletion</h2>
+            <p>You can request the deletion of your Maestro account and all associated personal data (including your email address and license record) at any time:</p>
+            <ul>
+                <li><strong>In the app:</strong> Go to the Pro Upgrade settings and click the "Delete account" button.</li>
+                <li><strong>Web/Email:</strong> Send a request to our support email (maestroaplicativo@gmail.com) with the subject "Account deletion" or request it through our <a href="delete-account.html">Account Deletion Request Page</a>. Your request will be processed within 7 business days.</li>
+            </ul>
+            <p>Deletion permanently removes your account, registered devices, and your license profile kept in RevenueCat. It does <strong>not cancel, revoke, or refund</strong> the lifetime purchase made through the Apple App Store or Google Play — that purchase record remains subject to the respective store's own policy. Data stored locally on your device (shows, audio, settings) is not remotely deleted. If you later voluntarily restore that purchase, a new license profile may be recreated from the entitlement still valid at the store.</p>
+
+            <h2>8. Children</h2>
             <p>Maestro is not directed at children under 13 years of age and does not intentionally collect data from children.</p>
 
-            <h2>8. Changes to this Policy</h2>
+            <h2>9. Changes to this Policy</h2>
             <p>If this policy is updated, the new version will be published on this same page with the revised update date.</p>
 
-            <h2>9. Contact</h2>
+            <h2>10. Contact</h2>
+            <p>For support, questions about the app, purchases, Pro license restoration, or account deletion, send a message to the email below.</p>
             <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
 
             <hr class="divider">
@@ -240,7 +256,7 @@
             <p>Maestro grants you a personal, non-exclusive, non-transferable, revocable license to use the app. The free version has feature limitations. The Pro version is unlocked via a one-time purchase through the App Store.</p>
 
             <h2>3. Pro Purchase</h2>
-            <p>The Pro purchase is processed by the Apple App Store. It is a one-time (non-recurring) purchase that unlocks advanced features on up to 3 devices linked to the same account. To restore a previous purchase, use the "Restore" option in the app. Refunds are managed by Apple in accordance with App Store refund policies.</p>
+            <p>The Pro purchase is processed by the Apple App Store (on iOS/macOS) or Google Play (on Android). It is a one-time (non-recurring) purchase that unlocks advanced features on up to 6 Apple devices or up to 4 Android devices, depending on the store where it was purchased, with 1 Windows device allowed as an extra device. To restore a previous purchase, use the "Restore" option in the app. Refunds are managed by Apple or Google in accordance with the respective store's refund policies.</p>
 
             <h2>4. User Content</h2>
             <p>You are responsible for the audio files you import and use in the app. Do not use files that infringe third-party copyrights for public distribution.</p>
@@ -258,19 +274,20 @@
         <!-- ═══════════════ ESPAÑOL ═══════════════ -->
         <div id="lang-es" style="display:none">
             <h1>Política de Privacidad</h1>
-            <p class="subtitle">Maestro — Controlador de Audio Profesional<br>Última actualización: 7 de junio de 2026</p>
+            <p class="subtitle">Maestro — Controlador de Audio Profesional<br>Última actualización: 16 de julio de 2026</p>
 
             <h2>1. Introducción</h2>
             <p>Maestro es una aplicación de control de audio profesional desarrollada por Everton Machado. Esta política explica cómo tratamos tus datos.</p>
 
             <div class="highlight">
-                <strong>Resumen:</strong> Las playlists, archivos de audio, grabaciones y datos de Maestro Vision permanecen en tu dispositivo. La app puede usar Firebase para login/licencia Pro, Firebase Crashlytics para reportes técnicos de errores y RevenueCat/App Store para compras y restauración de licencia.
+                <strong>Resumen:</strong> Las playlists, archivos de audio y grabaciones permanecen en tu dispositivo. La app puede usar Firebase para login/licencia Pro, Firebase Crashlytics para reportes técnicos de errores y RevenueCat/App Store para compras y restauración de licencia.
             </div>
 
             <h2>2. Datos tratados por la app</h2>
             <ul>
-                <li><strong>Cuenta Pro:</strong> Firebase Authentication trata tu email, identificador de usuario y estado de autenticación.</li>
+                <li><strong>Cuenta Pro:</strong> Firebase Authentication trata tu nombre de perfil, email, identificador de usuario y estado de autenticación.</li>
                 <li><strong>Licencia Pro:</strong> Firebase puede almacenar el identificador de la cuenta y el estado de licencia.</li>
+                <li><strong>Registro del dispositivo:</strong> la app genera un identificador de instalación y lo envía junto con el nombre del dispositivo, la plataforma y la versión de la app a Firebase para aplicar el límite de dispositivos de la licencia.</li>
                 <li><strong>Compras:</strong> RevenueCat y App Store pueden tratar historial de compra e identificador de usuario.</li>
                 <li><strong>Reportes de error:</strong> Firebase Crashlytics puede recibir datos técnicos de fallos en versiones de producción.</li>
                 <li><strong>Datos locales:</strong> playlists, configuraciones, archivos de audio y grabaciones se almacenan en tu dispositivo.</li>
@@ -280,7 +297,7 @@
             <ul>
                 <li>No vendemos datos personales.</li>
                 <li>No mostramos anuncios.</li>
-                <li>No usamos datos de cámara para identificar personas.</li>
+                <li>No usamos la cámara del dispositivo en esta versión de la app.</li>
                 <li>No rastreamos tu ubicación geográfica.</li>
                 <li>No enviamos tus archivos de audio o grabaciones a servidores externos.</li>
                 <li>No compartimos datos con terceros para marketing.</li>
@@ -288,13 +305,20 @@
 
             <h2>4. Permisos del dispositivo</h2>
             <ul>
-                <li><strong>Cámara:</strong> usada para detección de gestos en tiempo real (Maestro Vision). Las imágenes se procesan localmente y nunca se graban ni transmiten.</li>
                 <li><strong>Micrófono:</strong> permite grabar cues de audio. El audio grabado se guarda solo en el dispositivo.</li>
-                <li><strong>Biblioteca de medios/Fotos:</strong> necesario para importar archivos de audio (MP3, WAV, AAC, FLAC, etc.) y exportar copias de seguridad.</li>
-                <li><strong>Biblioteca de música:</strong> permite importar pistas de audio del dispositivo.</li>
+                <li><strong>Archivos de audio:</strong> importa archivos que eliges desde la app Archivos, como iCloud Drive, Descargas o Google Drive. Ningún archivo se sube ni comparte.</li>
             </ul>
 
-            <h2>5. Contacto</h2>
+            <h2>5. Eliminación de Cuenta y Datos</h2>
+            <p>Puede solicitar la eliminación de su cuenta de Maestro y de todos los datos personales asociados (incluido su correo electrónico y registro de licencia) en cualquier momento:</p>
+            <ul>
+                <li><strong>En la aplicación:</strong> Vaya a la configuración de Pro Upgrade y haga clic en el botón "Eliminar cuenta".</li>
+                <li><strong>Web/Correo electrónico:</strong> Envíe una solicitud a nuestro correo electrónico de soporte (maestroaplicativo@gmail.com) con el asunto "Eliminación de cuenta" o solicítelo a través de nuestra <a href="delete-account.html">Página de Solicitud de Eliminación de Cuenta</a>. Su solicitud se procesará en un plazo de 7 días hábiles.</li>
+            </ul>
+            <p>La eliminación no cancela ni reembolsa la compra vitalicia de la Apple App Store o Google Play; esa compra sigue sujeta a la política de la tienda. Los datos locales del dispositivo no se eliminan de forma remota.</p>
+
+            <h2>6. Contacto</h2>
+            <p>Para soporte, dudas sobre la app, compras, restauración de la licencia Pro o eliminación de cuenta, envía un mensaje al correo electrónico abajo.</p>
             <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
 
             <hr class="divider">
@@ -305,7 +329,7 @@
             <p>Al usar Maestro, aceptas estos términos.</p>
 
             <h2>2. Compra Pro</h2>
-            <p>La compra Pro es procesada por la Apple App Store. Es una compra única que desbloquea funciones avanzadas en hasta 3 dispositivos. Los reembolsos son gestionados por Apple.</p>
+            <p>La compra Pro es procesada por la Apple App Store o Google Play Store. Es una compra única que desbloquea funciones avanzadas en hasta 6 dispositivos Apple o hasta 4 dispositivos Android, según la tienda de compra, con 1 dispositivo Windows adicional. Los reembolsos son gestionados por Apple o Google.</p>
 
             <h2>3. Contacto</h2>
             <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
@@ -314,20 +338,21 @@
         <!-- ═══════════════ DEUTSCH ═══════════════ -->
         <div id="lang-de" style="display:none">
             <h1>Datenschutzrichtlinie</h1>
-            <p class="subtitle">Maestro — Professionelle Audiosteuerung<br>Letzte Aktualisierung: 7. Juni 2026</p>
+            <p class="subtitle">Maestro — Professionelle Audiosteuerung<br>Letzte Aktualisierung: 16. Juli 2026</p>
 
             <h2>1. Einleitung</h2>
             <p>Maestro ist eine professionelle Audiosteuerungs-App, entwickelt von Everton Machado. Diese Richtlinie erklärt, wie wir mit Ihren Daten umgehen.</p>
 
             <div class="highlight">
-                <strong>Zusammenfassung:</strong> Playlists, Audiodateien, Aufnahmen und Maestro Vision-Daten verbleiben auf Ihrem Gerät. Die App kann Firebase für Pro-Login/Lizenz, Firebase Crashlytics für technische Fehlerberichte und RevenueCat/App Store für Käufe verwenden.
+                <strong>Zusammenfassung:</strong> Playlists, Audiodateien und Aufnahmen verbleiben auf Ihrem Gerät. Die App kann Firebase für Pro-Login/Lizenz, Firebase Crashlytics für technische Fehlerberichte und RevenueCat, App Store und Google Play Store für Käufe und Lizenzwiederherstellung verwenden.
             </div>
 
             <h2>2. Verarbeitete Daten</h2>
             <ul>
-                <li><strong>Pro-Konto:</strong> Firebase Authentication verarbeitet Ihre E-Mail-Adresse, Benutzerkennung und Authentifizierungsstatus.</li>
+                <li><strong>Pro-Konto:</strong> Firebase Authentication verarbeitet Ihren Profilnamen, Ihre E-Mail-Adresse, Benutzerkennung und Authentifizierungsstatus.</li>
                 <li><strong>Pro-Lizenz:</strong> Firebase speichert möglicherweise Ihre Kontokennung und den Lizenzstatus.</li>
-                <li><strong>Käufe:</strong> RevenueCat und App Store verarbeiten Kaufhistorie und Benutzerkennung.</li>
+                <li><strong>Geräteregistrierung:</strong> Die App erzeugt eine Installationskennung und sendet sie zusammen mit Gerätename, Plattform und App-Version an Firebase, um das Gerätelimit der Lizenz anzuwenden.</li>
+                <li><strong>Käufe:</strong> RevenueCat, App Store und Google Play Store verarbeiten Kaufhistorie und Benutzerkennung.</li>
                 <li><strong>Fehlerberichte:</strong> Firebase Crashlytics empfängt technische Absturzdaten in Produktionsversionen.</li>
                 <li><strong>Lokale Daten:</strong> Playlists, Einstellungen, Audiodateien und Aufnahmen werden auf Ihrem Gerät gespeichert.</li>
             </ul>
@@ -336,19 +361,26 @@
             <ul>
                 <li>Wir verkaufen keine persönlichen Daten.</li>
                 <li>Wir zeigen keine Werbung an.</li>
-                <li>Wir verwenden keine Kameradaten zur Personenidentifikation.</li>
+                <li>Wir verwenden in dieser App-Version keine Gerätekamera.</li>
                 <li>Wir senden Ihre Audiodateien nicht an externe Server.</li>
             </ul>
 
             <h2>4. Geräteberechtigungen</h2>
             <ul>
-                <li><strong>Kamera:</strong> Für Echtzeit-Gestenerkennung (Maestro Vision). Bilder werden lokal verarbeitet und niemals gespeichert oder übertragen.</li>
                 <li><strong>Mikrofon:</strong> Zum Aufzeichnen von Audio-Cues lokal auf dem Gerät.</li>
-                <li><strong>Mediathek/Fotos:</strong> Zum Importieren von Audiodateien (MP3, WAV, AAC, FLAC usw.) und Exportieren von Backups.</li>
-                <li><strong>Musikbibliothek:</strong> Zum Importieren von Audiospuren vom Gerät.</li>
+                <li><strong>Audiodateien:</strong> Importiert von Ihnen über die Dateien-App ausgewählte Dateien, etwa aus iCloud Drive, Downloads oder Google Drive. Es werden keine Dateien hochgeladen oder geteilt.</li>
             </ul>
 
-            <h2>5. Kontakt</h2>
+            <h2>5. Löschen von Konto und Daten</h2>
+            <p>Sie können die Löschung Ihres Maestro-Kontos und aller damit verbundenen persönlichen Daten (einschließlich Ihrer E-Mail-Adresse und Ihres Lizenzdatensatzes) jederzeit beantragen:</p>
+            <ul>
+                <li><strong>In der App:</strong> Gehen Sie zu den Pro Upgrade-Einstellungen und klicken Sie auf die Schaltfläche "Konto löschen".</li>
+                <li><strong>Web/E-Mail:</strong> Senden Sie eine Anfrage an unsere Support-E-Mail (maestroaplicativo@gmail.com) mit dem Betreff "Kontolöschung" oder nutzen Sie unsere <a href="delete-account.html">Seite zur Löschanfrage</a>. Ihre Anfrage wird innerhalb von 7 Werktagen bearbeitet.</li>
+            </ul>
+            <p>Die Löschung storniert oder erstattet den lebenslangen Kauf im Apple App Store oder Google Play nicht; dieser Kauf unterliegt weiterhin der jeweiligen Store-Richtlinie. Lokale Gerätedaten werden nicht aus der Ferne gelöscht.</p>
+
+            <h2>6. Kontakt</h2>
+            <p>Für Support, Fragen zur App, Käufen, Wiederherstellung der Pro-Lizenz oder Kontolöschung senden Sie eine Nachricht an die unten angegebene E-Mail-Adresse.</p>
             <p><strong>E-Mail:</strong> maestroaplicativo@gmail.com</p>
 
             <hr class="divider">
@@ -359,7 +391,7 @@
             <p>Durch die Nutzung von Maestro stimmen Sie diesen Bedingungen zu.</p>
 
             <h2>2. Pro-Kauf</h2>
-            <p>Der Pro-Kauf wird über den Apple App Store abgewickelt. Es handelt sich um einen einmaligen Kauf, der erweiterte Funktionen auf bis zu 3 Geräten freischaltet. Rückerstattungen werden von Apple verwaltet.</p>
+            <p>Der Pro-Kauf wird über den Apple App Store oder den Google Play Store abgewickelt. Es handelt sich um einen einmaligen Kauf, der erweiterte Funktionen auf bis zu 6 Apple-Geräten oder bis zu 4 Android-Geräten freischaltet, je nach Store, mit 1 zusätzlichen Windows-Gerät. Rückerstattungen werden von Apple oder Google verwaltet.</p>
 
             <h2>3. Kontakt</h2>
             <p><strong>E-Mail:</strong> maestroaplicativo@gmail.com</p>
@@ -368,20 +400,21 @@
         <!-- ═══════════════ FRANÇAIS ═══════════════ -->
         <div id="lang-fr" style="display:none">
             <h1>Politique de Confidentialité</h1>
-            <p class="subtitle">Maestro — Contrôleur Audio Professionnel<br>Dernière mise à jour : 7 juin 2026</p>
+            <p class="subtitle">Maestro — Contrôleur Audio Professionnel<br>Dernière mise à jour : 16 juillet 2026</p>
 
             <h2>1. Introduction</h2>
             <p>Maestro est une application de contrôle audio professionnel développée par Everton Machado. Cette politique explique comment nous traitons vos données.</p>
 
             <div class="highlight">
-                <strong>Résumé :</strong> Les playlists, fichiers audio, enregistrements et données Maestro Vision restent sur votre appareil. L'app peut utiliser Firebase pour le login/licence Pro, Firebase Crashlytics pour les rapports d'erreurs, et RevenueCat/App Store pour les achats.
+                <strong>Résumé :</strong> Les playlists, fichiers audio et enregistrements restent sur votre appareil. L'app peut utiliser Firebase pour le login/licence Pro, Firebase Crashlytics pour les rapports d'erreurs, et RevenueCat, App Store et Google Play Store pour les achats et la restauration des licences.
             </div>
 
             <h2>2. Données traitées</h2>
             <ul>
-                <li><strong>Compte Pro :</strong> Firebase Authentication traite votre adresse e-mail, identifiant utilisateur et état d'authentification.</li>
+                <li><strong>Compte Pro :</strong> Firebase Authentication traite votre nom de profil, votre adresse e-mail, votre identifiant utilisateur et votre état d'authentification.</li>
                 <li><strong>Licence Pro :</strong> Firebase peut stocker votre identifiant de compte et le statut de licence.</li>
-                <li><strong>Achats :</strong> RevenueCat et l'App Store peuvent traiter l'historique d'achat et l'identifiant utilisateur.</li>
+                <li><strong>Enregistrement de l'appareil :</strong> l'app génère un identifiant d'installation et l'envoie avec le nom de l'appareil, la plateforme et la version de l'app à Firebase afin d'appliquer la limite d'appareils de la licence.</li>
+                <li><strong>Achats :</strong> RevenueCat, l'App Store et le Google Play Store peuvent traiter l'historique d'achat et l'identifiant utilisateur.</li>
                 <li><strong>Rapports d'erreurs :</strong> Firebase Crashlytics reçoit des données techniques de crash en versions de production.</li>
                 <li><strong>Données locales :</strong> playlists, paramètres, fichiers audio et enregistrements sont stockés sur votre appareil.</li>
             </ul>
@@ -390,19 +423,26 @@
             <ul>
                 <li>Nous ne vendons pas de données personnelles.</li>
                 <li>Nous n'affichons pas de publicités.</li>
-                <li>Nous n'utilisons pas les données de caméra pour identifier des personnes.</li>
+                <li>Nous n'utilisons pas la caméra de l'appareil dans cette version de l'app.</li>
                 <li>Nous n'envoyons pas vos fichiers audio à des serveurs externes.</li>
             </ul>
 
             <h2>4. Autorisations de l'appareil</h2>
             <ul>
-                <li><strong>Caméra :</strong> utilisée pour la détection de gestes en temps réel (Maestro Vision). Les images sont traitées localement et ne sont jamais enregistrées ni transmises.</li>
                 <li><strong>Microphone :</strong> permet d'enregistrer des cues audio localement sur l'appareil.</li>
-                <li><strong>Médiathèque/Photos :</strong> nécessaire pour importer des fichiers audio (MP3, WAV, AAC, FLAC, etc.) et exporter des sauvegardes.</li>
-                <li><strong>Bibliothèque musicale :</strong> permet d'importer des pistes audio depuis la bibliothèque de l'appareil.</li>
+                <li><strong>Fichiers audio :</strong> importe les fichiers que vous choisissez via l'app Fichiers, comme iCloud Drive, Téléchargements ou Google Drive. Aucun fichier n'est téléchargé ni partagé.</li>
             </ul>
 
-            <h2>5. Contact</h2>
+            <h2>5. Suppression de Compte et de Données</h2>
+            <p>Vous pouvez demander la suppression de votre compte Maestro et de toutes les données personnelles associées (y compris votre adresse e-mail et votre dossier de licence) à tout moment :</p>
+            <ul>
+                <li><strong>Dans l'application :</strong> Accédez aux paramètres de Pro Upgrade et cliquez sur le bouton "Supprimer le compte".</li>
+                <li><strong>Web/E-mail :</strong> Envoyez une demande à notre adresse e-mail de support (maestroaplicativo@gmail.com) avec pour objet "Suppression de compte" ou utilisez notre <a href="delete-account.html">page de demande de suppression</a>. Votre demande sera traitée dans un délai de 7 jours ouvrables.</li>
+            </ul>
+            <p>La suppression n'annule ni ne rembourse l'achat à vie effectué sur l'Apple App Store ou Google Play ; cet achat reste soumis à la politique du magasin. Les données locales de l'appareil ne sont pas supprimées à distance.</p>
+
+            <h2>6. Contact</h2>
+            <p>Pour l'assistance, les questions sur l'app, les achats, la restauration de la licence Pro ou la suppression de compte, envoyez un message à l'adresse ci-dessous.</p>
             <p><strong>Email :</strong> maestroaplicativo@gmail.com</p>
 
             <hr class="divider">
@@ -413,7 +453,7 @@
             <p>En utilisant Maestro, vous acceptez ces conditions.</p>
 
             <h2>2. Achat Pro</h2>
-            <p>L'achat Pro est traité par l'Apple App Store. Il s'agit d'un achat unique qui débloque les fonctionnalités avancées sur jusqu'à 3 appareils. Les remboursements sont gérés par Apple.</p>
+            <p>L'achat Pro est traité par l'Apple App Store ou le Google Play Store. Il s'agit d'un achat unique qui débloque les fonctionnalités avancées sur jusqu'à 6 appareils Apple ou jusqu'à 4 appareils Android selon la boutique, avec 1 appareil Windows supplémentaire. Les remboursements sont gérés par Apple ou Google.</p>
 
             <h2>3. Contact</h2>
             <p><strong>Email :</strong> maestroaplicativo@gmail.com</p>
@@ -422,20 +462,21 @@
         <!-- ═══════════════ ITALIANO ═══════════════ -->
         <div id="lang-it" style="display:none">
             <h1>Informativa sulla Privacy</h1>
-            <p class="subtitle">Maestro — Controllo Audio Professionale<br>Ultimo aggiornamento: 7 giugno 2026</p>
+            <p class="subtitle">Maestro — Controllo Audio Professionale<br>Ultimo aggiornamento: 16 luglio 2026</p>
 
             <h2>1. Introduzione</h2>
             <p>Maestro è un'applicazione di controllo audio professionale sviluppata da Everton Machado. Questa informativa spiega come trattiamo i tuoi dati.</p>
 
             <div class="highlight">
-                <strong>Riepilogo:</strong> Playlist, file audio, registrazioni e dati di Maestro Vision rimangono sul tuo dispositivo. L'app può usare Firebase per login/licenza Pro, Firebase Crashlytics per report tecnici di errori e RevenueCat/App Store per acquisti.
+                <strong>Riepilogo:</strong> Playlist, file audio e registrazioni rimangono sul tuo dispositivo. L'app può usare Firebase per login/licenza Pro, Firebase Crashlytics per report tecnici di errori e RevenueCat, App Store e Google Play Store per acquisti e ripristino licenza.
             </div>
 
             <h2>2. Dati trattati</h2>
             <ul>
-                <li><strong>Account Pro:</strong> Firebase Authentication tratta il tuo indirizzo email, identificatore utente e stato di autenticazione.</li>
+                <li><strong>Account Pro:</strong> Firebase Authentication tratta il nome del profilo, l'indirizzo email, l'identificatore utente e lo stato di autenticazione.</li>
                 <li><strong>Licenza Pro:</strong> Firebase può archiviare l'identificatore dell'account e lo stato della licenza.</li>
-                <li><strong>Acquisti:</strong> RevenueCat e App Store possono trattare la cronologia degli acquisti e l'identificatore utente.</li>
+                <li><strong>Registrazione del dispositivo:</strong> l'app genera un identificatore dell'installazione e lo invia insieme al nome del dispositivo, alla piattaforma e alla versione dell'app a Firebase per applicare il limite di dispositivi della licenza.</li>
+                <li><strong>Acquisti:</strong> RevenueCat, App Store e Google Play Store possono trattare la cronologia degli acquisti e l'identificatore utente.</li>
                 <li><strong>Segnalazioni di errori:</strong> Firebase Crashlytics riceve dati tecnici di crash nelle versioni di produzione.</li>
                 <li><strong>Dati locali:</strong> playlist, impostazioni, file audio e registrazioni sono archiviati sul tuo dispositivo.</li>
             </ul>
@@ -444,19 +485,26 @@
             <ul>
                 <li>Non vendiamo dati personali.</li>
                 <li>Non mostriamo pubblicità.</li>
-                <li>Non usiamo i dati della fotocamera per identificare persone.</li>
+                <li>Non usiamo la fotocamera del dispositivo in questa versione dell'app.</li>
                 <li>Non inviamo i tuoi file audio a server esterni.</li>
             </ul>
 
             <h2>4. Autorizzazioni del dispositivo</h2>
             <ul>
-                <li><strong>Fotocamera:</strong> usata per il rilevamento gesti in tempo reale (Maestro Vision). Le immagini vengono elaborate localmente e non vengono mai registrate o trasmesse.</li>
                 <li><strong>Microfono:</strong> permette di registrare cue audio localmente sul dispositivo.</li>
-                <li><strong>Libreria multimediale/Foto:</strong> necessario per importare file audio (MP3, WAV, AAC, FLAC, ecc.) ed esportare backup.</li>
-                <li><strong>Libreria musicale:</strong> permette di importare tracce audio dalla libreria del dispositivo.</li>
+                <li><strong>File audio:</strong> importa i file che scegli tramite l'app File, come iCloud Drive, Download o Google Drive. Nessun file viene caricato o condiviso.</li>
             </ul>
 
-            <h2>5. Contatto</h2>
+            <h2>5. Eliminazione dell'Account e dei Dati</h2>
+            <p>Puoi richiedere l'eliminazione del tuo account Maestro e di tutti i dati personali associati (inclusi l'indirizzo email e il record della licenza) in qualsiasi momento:</p>
+            <ul>
+                <li><strong>Nell'applicazione:</strong> Vai alle impostazioni di Pro Upgrade e fai clic sul pulsante "Elimina account".</li>
+                <li><strong>Web/E-mail:</strong> Invia una richiesta alla nostra e-mail di supporto (maestroaplicativo@gmail.com) con l'oggetto "Eliminazione account" o utilizza la nostra <a href="delete-account.html">pagina di richiesta di eliminazione</a>. La richiesta sarà elaborata entro 7 giorni lavorativi.</li>
+            </ul>
+            <p>L'eliminazione non annulla né rimborsa l'acquisto a vita effettuato su Apple App Store o Google Play; tale acquisto resta soggetto alla politica del rispettivo store. I dati locali del dispositivo non vengono eliminati da remoto.</p>
+
+            <h2>6. Contacto</h2>
+            <p>Per supporto, domande sull'app, acquisti, ripristino della licenza Pro o eliminazione dell'account, invia un messaggio all'e-mail qui sotto.</p>
             <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
 
             <hr class="divider">
@@ -467,7 +515,7 @@
             <p>Utilizzando Maestro, accetti questi termini.</p>
 
             <h2>2. Acquisto Pro</h2>
-            <p>L'acquisto Pro viene elaborato dall'Apple App Store. È un acquisto unico che sblocca le funzionalità avanzate su fino a 3 dispositivi. I rimborsi sono gestiti da Apple.</p>
+            <p>L'acquisto Pro viene elaborato dall'Apple App Store o dal Google Play Store. È un acquisto unico che sblocca le funzionalità avanzate su un massimo di 6 dispositivi Apple o 4 dispositivi Android, a seconda dello store, con 1 dispositivo Windows aggiuntivo. I rimborsi sono gestiti da Apple o Google.</p>
 
             <h2>3. Contatto</h2>
             <p><strong>Email:</strong> maestroaplicativo@gmail.com</p>
@@ -476,20 +524,21 @@
         <!-- ═══════════════ 中文 ═══════════════ -->
         <div id="lang-zh" style="display:none">
             <h1>隐私政策</h1>
-            <p class="subtitle">Maestro — 专业音频控制器<br>最后更新：2026年6月7日</p>
+            <p class="subtitle">Maestro — 专业音频控制器<br>最后更新：2026年7月16日</p>
 
             <h2>1. 简介</h2>
             <p>Maestro 是由 Everton Machado 开发的专业音频控制应用程序。本政策说明我们如何处理您的数据。</p>
 
             <div class="highlight">
-                <strong>摘要：</strong>播放列表、音频文件、录音和 Maestro Vision 数据均保存在您的设备上。应用可能使用 Firebase 进行 Pro 登录/许可证，Firebase Crashlytics 用于技术崩溃报告，RevenueCat/App Store 用于购买。
+                <strong>摘要：</strong>播放列表、音频文件和录音均保存在您的设备上。应用可能使用 Firebase 进行 Pro 登录/许可证，Firebase Crashlytics 用于技术崩溃报告，以及 RevenueCat、App Store 和 Google Play Store 用于购买和恢复许可证。
             </div>
 
             <h2>2. 处理的数据</h2>
             <ul>
-                <li><strong>Pro 账户：</strong>Firebase Authentication 处理您的电子邮件地址、用户标识符和身份验证状态。</li>
+                <li><strong>Pro 账户：</strong>Firebase Authentication 处理您的个人资料名称、电子邮件地址、用户标识符和身份验证状态。</li>
                 <li><strong>Pro 许可证：</strong>Firebase 可能存储您的账户标识符和许可证状态。</li>
-                <li><strong>购买：</strong>RevenueCat 和 App Store 可能处理购买历史记录和用户标识符。</li>
+                <li><strong>设备注册：</strong>应用会生成安装标识符，并将该标识符与设备名称、平台和应用版本一起发送到 Firebase，以执行许可证的设备数量限制。</li>
+                <li><strong>购买：</strong>RevenueCat、App Store 和 Google Play Store 可能处理购买历史记录和用户标识符。</li>
                 <li><strong>崩溃报告：</strong>Firebase Crashlytics 在生产版本中接收技术崩溃数据。</li>
                 <li><strong>本地数据：</strong>播放列表、设置、音频文件和录音存储在您的设备上。</li>
             </ul>
@@ -498,19 +547,26 @@
             <ul>
                 <li>我们不出售个人数据。</li>
                 <li>我们不展示广告。</li>
-                <li>我们不使用摄像头数据识别人员。</li>
+                <li>本版本应用不使用设备摄像头。</li>
                 <li>我们不将您的音频文件发送到外部服务器。</li>
             </ul>
 
             <h2>4. 设备权限</h2>
             <ul>
-                <li><strong>相机：</strong>用于实时手势检测（Maestro Vision）。图像在设备本地处理，从不记录或传输。</li>
                 <li><strong>麦克风：</strong>允许在应用中本地录制音频提示。</li>
-                <li><strong>媒体库/照片：</strong>用于导入音频文件（MP3、WAV、AAC、FLAC 等）和导出备份。</li>
-                <li><strong>音乐库：</strong>允许从设备库导入音轨。</li>
+                <li><strong>音频文件：</strong>导入您通过“文件”应用选择的文件，例如 iCloud Drive、下载项或 Google Drive。不会上传或共享任何文件。</li>
             </ul>
 
-            <h2>5. 联系方式</h2>
+            <h2>5. 账户和数据删除</h2>
+            <p>您可以随时申请删除您的 Maestro 账户及所有相关的个人数据（包括您的电子邮件和许可证记录）：</p>
+            <ul>
+                <li><strong>应用内：</strong>转到 Pro 升级设置，然后点击“删除账户”按钮。</li>
+                <li><strong>网页/电子邮件：</strong>向我们的支持邮箱 (maestroaplicativo@gmail.com) 发送申请，主题为”删除账户”，或使用我们的<a href="delete-account.html">账户删除申请页面</a>。您的申请将在 7 个工作日内处理。</li>
+            </ul>
+            <p>删除操作不会取消或退还在 Apple App Store 或 Google Play 上进行的终身购买；该购买记录仍受相应商店政策约束。设备本地数据不会被远程删除。</p>
+
+            <h2>6. 联系方式</h2>
+            <p>如需支持，或咨询应用、购买、Pro 许可证恢复或账户删除，请发送邮件至以下地址。</p>
             <p><strong>电子邮件：</strong>maestroaplicativo@gmail.com</p>
 
             <hr class="divider">
@@ -521,7 +577,7 @@
             <p>使用 Maestro 即表示您同意这些条款。</p>
 
             <h2>2. Pro 购买</h2>
-            <p>Pro 购买通过 Apple App Store 处理。这是一次性购买，可在最多 3 台设备上解锁高级功能。退款由 Apple 管理。</p>
+            <p>Pro 购买通过 Apple App Store 或 Google Play Store 处理。这是一次性购买，视购买商店而定，最多可在 6 台 Apple 设备或 4 台 Android 设备上解锁高级功能，另可额外使用 1 台 Windows 设备。退款由 Apple 或 Google 管理。</p>
 
             <h2>3. 联系方式</h2>
             <p><strong>电子邮件：</strong>maestroaplicativo@gmail.com</p>
@@ -530,19 +586,20 @@
         <!-- ═══════════════ 日本語 ═══════════════ -->
         <div id="lang-ja" style="display:none">
             <h1>プライバシーポリシー</h1>
-            <p class="subtitle">Maestro — プロフェッショナル音声コントローラー<br>最終更新日：2026年6月7日</p>
+            <p class="subtitle">Maestro — プロフェッショナル音声コントローラー<br>最終更新日：2026年7月16日</p>
 
             <h2>1. はじめに</h2>
             <p>Maestroは、Everton Machadoが開発したプロフェッショナル音声制御アプリケーションです。このポリシーでは、お客様のデータの取り扱いについて説明します。</p>
 
             <div class="highlight">
-                <strong>概要：</strong>プレイリスト、音声ファイル、録音、Maestro Visionデータはすべてデバイスに保存されます。アプリはProログイン/ライセンスにFirebase、技術的なクラッシュレポートにFirebase Crashlytics、購入にRevenueCat/App Storeを使用する場合があります。
+                <strong>概要：</strong>プレイリスト、音声ファイル、録音はすべてデバイスに保存されます。アプリはProログイン/ライセンスにFirebase、技術的なクラッシュレポートにFirebase Crashlytics、購入やライセンス復元にRevenueCat、App Store、Google Play Storeを使用する場合があります。
             </div>
 
             <h2>2. 処理されるデータ</h2>
             <ul>
-                <li><strong>Proアカウント：</strong>Firebase Authenticationがメールアドレス、ユーザー識別子、認証状態を処理します。</li>
+                <li><strong>Proアカウント：</strong>Firebase Authenticationがプロフィール名、メールアドレス、ユーザー識別子、認証状態を処理します。</li>
                 <li><strong>Proライセンス：</strong>Firebaseがアカウント識別子とライセンス状態を保存する場合があります。</li>
+                <li><strong>デバイス登録：</strong>アプリはインストール識別子を生成し、デバイス名、プラットフォーム、アプリのバージョンとともにFirebaseへ送信して、ライセンスのデバイス数上限を適用します。</li>
                 <li><strong>購入：</strong>RevenueCatとApp Storeが購入履歴とユーザー識別子を処理する場合があります。</li>
                 <li><strong>クラッシュレポート：</strong>Firebase Crashlyticsが本番ビルドで技術的なクラッシュデータを受信します。</li>
                 <li><strong>ローカルデータ：</strong>プレイリスト、設定、音声ファイル、録音はデバイスに保存されます。</li>
@@ -552,19 +609,26 @@
             <ul>
                 <li>個人データを販売しません。</li>
                 <li>広告を表示しません。</li>
-                <li>カメラデータを人物識別に使用しません。</li>
+                <li>本バージョンのアプリではデバイスのカメラを使用しません。</li>
                 <li>音声ファイルを外部サーバーに送信しません。</li>
             </ul>
 
             <h2>4. デバイスの権限</h2>
             <ul>
-                <li><strong>カメラ：</strong>リアルタイムジェスチャー検出（Maestro Vision）に使用します。画像はデバイス上でローカルに処理され、記録・送信されることはありません。</li>
                 <li><strong>マイク：</strong>アプリでオーディオキューをローカル録音するために使用します。</li>
-                <li><strong>メディアライブラリ/写真：</strong>音声ファイル（MP3、WAV、AAC、FLACなど）のインポートとバックアップのエクスポートに必要です。</li>
-                <li><strong>音楽ライブラリ：</strong>デバイスライブラリからオーディオトラックをインポートするために使用します。</li>
+                <li><strong>音声ファイル：</strong>ファイルアプリで選択したファイル（iCloud Drive、ダウンロード、Google Driveなど）をインポートします。ファイルのアップロードや共有は行われません。</li>
             </ul>
 
-            <h2>5. お問い合わせ</h2>
+            <h2>5. アカウントとデータの削除</h2>
+            <p>Maestroアカウントおよび関連するすべての個人データ（メールアドレスおよびライセンス記録を含む）の削除は、いつでもリクエストできます。</p>
+            <ul>
+                <li><strong>アプリ内：</strong>Proアップグレード設定に移動し、「アカウントの削除」ボタンをクリックします。</li>
+                <li><strong>ウェブ/メール：</strong>サポートメール（maestroaplicativo@gmail.com）宛てにリクエストを送信するか、当社の<a href="delete-account.html">アカウント削除リクエストページ</a>から申請してください。リクエストは7営業日以内に処理されます。</li>
+            </ul>
+            <p>アカウント削除は、Apple App StoreまたはGoogle Playで行われた永続ライセンスの購入をキャンセルまたは返金するものではありません。その購入記録は各ストアのポリシーに従い引き続き有効です。デバイス内のローカルデータはリモートで削除されません。</p>
+
+            <h2>6. お問い合わせ</h2>
+            <p>サポート、アプリ、購入、Proライセンスの復元、アカウント削除に関するお問い合わせは、以下のメールアドレスまでご連絡ください。</p>
             <p><strong>メール：</strong>maestroaplicativo@gmail.com</p>
 
             <hr class="divider">
@@ -575,7 +639,7 @@
             <p>Maestroを使用することで、これらの規約に同意したものとみなされます。</p>
 
             <h2>2. Pro購入</h2>
-            <p>Pro購入はApple App Storeで処理されます。最大3台のデバイスで高度な機能を解除する買い切り購入です。返金はAppleが管理します。</p>
+            <p>Pro購入はApple App Store（iOS/macOS）またはGoogle Play（Android）で処理されます。購入したストアに応じて、最大6台のAppleデバイスまたは最大4台のAndroidデバイスで高度な機能を解除する買い切り購入で、Windowsを1台追加デバイスとして利用できます。返金はAppleまたはGoogleが管理します。</p>
 
             <h2>3. お問い合わせ</h2>
             <p><strong>メール：</strong>maestroaplicativo@gmail.com</p>
